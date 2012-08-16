@@ -1,5 +1,5 @@
 # Reload aliases file
-alias alias-load='cd ~ && . .bash_aliases && cd -'
+alias alias-load='cd ~ && (. .bash_aliases) && cd -'
 
 # Create launcher at ~/Desktop
 alias launch='gnome-desktop-item-edit ~/Desktop/ --create-new'
@@ -22,3 +22,6 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 
 # Some masturbation on git
 alias git-log='git log --oneline --decorate'
+
+# Save up it!
+alias backup='/stuff/BackUp-Script/BackUp.sh'
